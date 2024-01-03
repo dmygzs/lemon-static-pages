@@ -390,7 +390,7 @@
         animation: buttoneffect 0.5s;
 }
 @keyframes buttoneffect{
-    0%,100%{
+    0%{
         transform: scale(1, 1);
     }
     25%{
@@ -402,4 +402,12 @@
     75%{
         transform: scale(0.95, 1.05);
     }
+    100%{
+        transform: scale(1.0, 1.1);
+    }
+}
+.len-comments-icon {
+    height: 25px;
+    width: 25px;
+    vertical-align: -6px;
 }
